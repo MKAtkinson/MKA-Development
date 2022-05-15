@@ -9,11 +9,16 @@
 .welcome {
     display: flex;
     flex-wrap: wrap;
-    background-image: none;
+
     color: white;
     justify-content: center;
     text-align: center;
-    
+    padding: 150px;
+}
+
+.intro {
+    background-color: transparent;
+    align-items: flex-start;
 }
 
 #name {
@@ -25,20 +30,26 @@
     display: flex;
     justify-content: center;
     align-content: space-between;
-    margin: 20px 0px
+    margin-bottom: 20px;
 }
 
 nav ul li {
-    display: inline;
+    display: flex;
     justify-content: center;
-    list-style: none;
-    text-align: center;
     background-color: darkgray;
 }
 
 nav ul li a {
     text-decoration: none;
-    justify-content: center;
-    text-align: center;
     background-color: darkgray;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about-me-section {
+    display: flex;
+    
 }
