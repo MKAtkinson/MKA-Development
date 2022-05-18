@@ -44,12 +44,25 @@ nav ul li a {
     background-color: darkgray;
 }
 
-.about-me {
+.scrolling-title {
     display: flex;
     justify-content: space-evenly;
 }
 
-#about-me-section {
+.slot-title {
     display: flex;
-    
+    padding: 20px;
+    font-size: 40px;
+    border-right-style: double;
+}
+
+.para-description {
+    padding-left: 20px;
+}
+
+.cards {
+    display: flex;
+    height: 90px;
+    width: 45px;
+    justify-content: space-evenly;
 }
