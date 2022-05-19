@@ -46,7 +46,7 @@ nav ul li a {
 
 .scrolling-title {
     display: flex;
-    justify-content: space-evenly;
+    margin: 40px 0px;
 }
 
 .slot-title {
@@ -56,13 +56,42 @@ nav ul li a {
     border-right-style: double;
 }
 
-.para-description {
-    padding-left: 20px;
+#para-description {
+    padding-left: 40px;
 }
 
 .cards {
     display: flex;
-    height: 90px;
-    width: 45px;
     justify-content: space-evenly;
+    height: 400px;
+    width: 400px;
+    border: 5px;
+    border-style: solid;
+    margin: 0px 40px;
+    align-items: center;
+}
+
+.projects {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.img-margin {
+margin: 0px 20px;
+max-width: 300px ;
+max-height: 300px;
+}
+
+#projects {
+    padding-right: 40px;
+}
+
+#contact {
+    padding-right: 45px;
+}
+
+#contact-list {
+    justify-content: center;
 }
