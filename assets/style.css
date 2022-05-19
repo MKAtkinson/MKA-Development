@@ -93,5 +93,10 @@ max-height: 300px;
 }
 
 #contact-list {
-    justify-content: center;
+    text-align: center;
+} 
+
+#contact-style {
+    display: flex;
+    justify-content: space-between;
 }
